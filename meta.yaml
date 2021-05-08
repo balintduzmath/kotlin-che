@@ -8,10 +8,7 @@ title: Kotlin
 description: Kotlin che plugin
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
 repository: https://github.com/fwcd/kotlin-language-server.git
-category:                                
+category: Language
 spec:
-  containers:
-    - image: "registry.redhat.io/codeready-workspaces/plugin-openshift-rhel8"
-      name: crw-ocp-rel8
   extensions:                                                   
     - https://open-vsx.org/api/fwcd/kotlin/0.2.22/file/fwcd.kotlin-0.2.22.vsix
